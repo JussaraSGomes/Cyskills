@@ -13,7 +13,7 @@ describe('Date Picker', () => {
             .click()
 
         cy.get('select[aria-label="Month"]')
-            .select('Março')
+            .select('Abril')
 
         cy.get('input[aria-label="Year"]')
             .type('1992')
